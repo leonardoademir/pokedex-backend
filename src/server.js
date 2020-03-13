@@ -1,8 +1,11 @@
 import mongoose from 'mongoose';
 import app from './app';
+import dotenv from 'dotenv'
+
+dotenv.config();
 
 // Iniciando o DB
-mongoose.connect('mongodb://localhost:27017/nodeapi', {
+mongoose.connect(process.env.MONGO_URL, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
