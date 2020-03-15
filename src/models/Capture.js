@@ -10,8 +10,8 @@ const CaptureSchema = new mongoose.Schema({
     type: Date,
     default: Date.now,
   },
-  moveList: [
-        type: String,
+  moveList: [{
+      type: String,
     },
   ],
 
