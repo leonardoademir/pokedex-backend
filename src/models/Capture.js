@@ -11,10 +11,7 @@ const CaptureSchema = new mongoose.Schema({
     default: Date.now,
   },
   moveList: [
-    {
-      name: {
         type: String,
-      },
     },
   ],
 
