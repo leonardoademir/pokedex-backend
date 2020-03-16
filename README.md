@@ -16,8 +16,8 @@ Esta é uma API REST construída para um sistema de capturas Pokémon. É escrit
 - **Cadastrar problemas nas entregas:** o entregador pode cadastrar problemas que ocorreram durante a entrega. Assim os problemas ficam registrados e o administrador pode decidir se a entrega deve ser cancelada ou não.
 
 ### :bookmark_tabs: **Rotas**
-A api pode ser acessada em https://pokedex-jacto-admission.herokuapp.com/api
-No qual:
+A api pode ser acessada em https://pokedex-jacto-admission.herokuapp.com/api </br>
+No qual:</br>
 '/captures' lista todas as capturas, através do GET e sendo inseridas por POST.
 '/users/' lista todos os usuários, através do GET e sendo inseridos por POST.
 '/sessions' cria uma sessão para autenticação do usuário por POST.
