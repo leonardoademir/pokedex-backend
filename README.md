@@ -2,7 +2,7 @@
 
 Esta é uma API REST construída para um sistema de capturas Pokémon. É escrita em NodeJS utilizando MVC, com banco de dados MongoDB e MongoDB Atlas. A seguir estão as ferramentas utilizadas, funcionalidades, etc.
 
-### :bookmark_tabs: **Funcionalidades de administrador**
+### :bookmark_tabs: **Funcionalidades**
 
 - **Autenticação:** se autenticar no sistema para exercer restritas a usuarios autenticados. (Não implementado ao front-end)
 - **Gestão de capturas:** cadastrar, atualizar e listar destinatários cadastrados.
